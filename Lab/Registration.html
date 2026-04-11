@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration Page</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+/* Form box */
+.form-box {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Bottom bar */
+.bottom-bar {
+    background-color: #00a8cc;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    TechFlow Solutions
+</div>
+
+<div class="container">
+    <div class="form-box">
+        <h2>Create Account</h2>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="you@example.com">
+
+        <label>Password</label>
+        <input type="password">
+
+        <label>Confirm Password</label>
+        <input type="password">
+
+        <label>Gender</label>
+        <select>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <button>Register</button>
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 TechFlow Solutions. All rights reserved.
+</div>
+
+<div class="bottom-bar">
+    Current User: Guest
+</div>
+
+</body>
+</html>
